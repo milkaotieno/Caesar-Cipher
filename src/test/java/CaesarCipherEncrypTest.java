@@ -1,8 +1,9 @@
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CeaserCipherEncryptTest {
+public class CaesarCipherEncrypTest {
     //coded test method starts with annotation
     Encrypt testEncrypt = new Encrypt(5, "I love hiking");
     @Test
@@ -47,4 +48,7 @@ public class CeaserCipherEncryptTest {
         assertEquals("I love hiking" , testEncrypt.encode());
     }
 
+
 }
+
+
