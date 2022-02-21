@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7d05751-2345-4954-b383-8b4ca44804d1" name="Default Changelist" comment="" />
+    <list default="true" id="c7d05751-2345-4954-b383-8b4ca44804d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/CaesarCipherDecrypTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CaesarCipherDecrypTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
