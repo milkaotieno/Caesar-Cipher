@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CeaserDecryptTest {
+public class CeaserCipherDecryptTest {
 
     Decrypt testDecrypt = new Decrypt( 5, "N QTAJ MNPNSL ");
 
