@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d05751-2345-4954-b383-8b4ca44804d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CaesarCipherDecrypTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CaesarCipherDecrypTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CaesarCipherEncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CaesarCipherEncryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decrypt.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +15,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -26,6 +30,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java_Ping_Pong_StarterCode" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
