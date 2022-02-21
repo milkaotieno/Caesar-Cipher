@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CeaserEncryptTest {
+public class CeaserCipherEncryptTest {
     //coded test method starts with annotation
     Encrypt testEncrypt = new Encrypt(5, "I love hiking");
     @Test
