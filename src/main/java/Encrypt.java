@@ -1,46 +1,70 @@
+//class that decrypts the encrypted message
+
+
 public class Encrypt {
 
+    private int mKey;
+    private String mInputText;
 
-import java.util.Scanner;
-
-    public class App {
-        public static void main(String[] args) {
-            //scanner variable from scanner class
-            Scanner scanner = new Scanner(System.in);
-            //variable to text cipher
-
-            System.out.println("Choose what to do: \n 1. Encrypt. \n 2.Decrypt. \n 3. Exit ");
-            //takes the users input
-            int decision = scanner.nextInt();
-            scanner.nextLine();
-
-            //Introduce the branching
-
-            if (decision==1) {
-                System.out.println("Please enter the message to be encrypted");
-                String inputMessage = scanner.nextLine().toUpperCase();//chainig methods
-                System.out.println("Kindly choose a key to cipher the message");
-                int encryptingKey = scanner.nextInt();
-                Encrypt encrypt = new Encrypt(encryptingKey,inputMessage);
-                System.out.println(String.format("Your ciphered Message is: %s " ,encrypt.encode()) );
-
-            }
-            else if (decision == 2) {
-                System.out.println("Enter the encrypted message to decrypt it");
-                String diciphered = scanner.nextLine().toUpperCase();
-                System.out.println("Choose the decrypting key from your keyboard");
-                int decryptKey = scanner.nextInt();
-                Decrypt decrypt = new Decrypt(decryptKey, diciphered);
-                System.out.println(String.format("Your diciphered message is: %s", decrypt.decode()) );
-
-            }
-            else if (decision ==3){
-                System.exit(0);
-            }
-            else {
-                System.out.println("Wrong Input");
-            }
-        }
+    public Encrypt(int mKey, String mInputText) {
+        this.mKey = mKey;
+        this.mInputText = mInputText;
     }
 
+
+    //method to rotate the character position
+
+
+    public String getInputText() {
+        return mInputText;
+    }
+
+    public int getKey() {
+        return mKey;
+    }
+
+    public boolean isValidInputText() {
+        char[] chars = mInputText.toCharArray();
+
+        for (char c : chars) {
+            if (!Character.isLetter(c) && c != ' ') {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean isNotEmpty() {
+        return !mInputText.trim().isEmpty();
+    }
+
+    public boolean isValidKey() {
+        return mKey > 1 && mKey < 26;
+
+    }
+
+    public String encode() {
+        String encoded = "";
+        String encodedArray[] = mInputText.split("");
+        String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        for (int i = 0; i < encodedArray.length; i++) {
+            if (mInputText.charAt(i) == ' ') {
+                encoded += " ";
+            } else {
+                int charPosition = alphabet.indexOf(mInputText.charAt(i));
+                int key = (mKey + charPosition) % 26;
+                encoded += alphabet.charAt(key);
+            }
+        }
+        return encoded.toUpperCase();
+    }
+
+    public int getmKey() {
+        return mKey;
+    }
+
+    public String getmInputText() {
+        return mInputText;
+    }
 }
+
