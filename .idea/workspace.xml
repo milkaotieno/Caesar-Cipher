@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d05751-2345-4954-b383-8b4ca44804d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/CaesarCipherEncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CaesarCipherEncryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CaesarCipherDecrypTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CaesarCipherDecrypTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CaesarCipherEncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CaesarCipherEncryptTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +28,15 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java_Ping_Pong_StarterCode" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
